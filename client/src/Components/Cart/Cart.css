@@ -1,0 +1,242 @@
+
+
+
+
+
+
+
+
+.cart-item-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.cart-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+.cart-item-wrapper h3  {
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout-product-container {
+    width: 100%;
+    overflow: hidden;
+    margin-block:30px
+}
+
+
+
+.checkout-product-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+
+
+.checkout-product-wrapper img {
+    width: 48px;
+}
+
+
+
+
+
+
+.checkout-product-wrapper p {
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cart-total-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.cart-total-headline {
+    display: flex;
+    align-items:baseline;
+    justify-content: flex-start;
+    margin: 0 auto;
+    position: relative;
+    left: 210px;
+    top:0px
+}
+
+
+
+
+
+
+
+.cart-total-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 2000px;
+    height: 310px;
+}
+
+
+
+.subtotal-child-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position: relative;
+    top:-85px;
+    left: 130px;
+    gap:145px
+
+ 
+}
+
+
+
+
+
+
+
+
+.subtotal-child-wrapper-two {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position: relative;
+    top:-5px;
+    left: -290px;
+    margin: 0 auto;
+    gap:99px
+  
+}
+
+
+
+
+
+.subtotal-child-wrapper-three {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    position: relative;
+    top:90px;
+    left: -710px;
+    gap:130px
+
+}
+
+
+
+
+.cart-total-promo-wrapper {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    top:0px;
+    left: -110px;
+    
+}
+
+
+
+.cart-total-promo-wrapper input {
+    padding:0.8em 4em;
+    text-align: center;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+}
+
+
+
+.cart-total-promo-wrapper button {
+    border:none;
+    outline: none;
+    background:purple;
+    color:white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0.8em
+}
+
+
+
+
+
+
+
+
+
+
+.cart-container-three {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.proceed-to-checkout-wrapper {
+    display: flex;
+    align-items:center;
+    margin:0 auto;
+    justify-content: flex-start;
+    position: relative;
+    top:0px;
+    left: 140px;
+}
+
+
+.proceed-to-checkout-wrapper button {
+    background:orange;
+    color:white;
+    padding: 0.9em;
+    font-size: 1rem;
+    border:none;
+    outline:none;
+}

@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+.BreadCrum-Container {
+    width:100%;
+    overflow: hidden;
+    margin:0 auto;
+    margin-block:40px;
+ 
+}
+
+
+.BreadCrum-Wrapper {
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin:0 auto
+}
+
+
+.BreadCrum-Wrapper  img {
+    width: 15px;
+    object-fit: contain;
+}

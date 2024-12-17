@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+.login-background {
+    background-image: url('../images/multiple shoes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0;
+    z-index: -99;
+}
+
+
+
+
+
+
+
+.login-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.login-wrapper h3 {
+    color:black;
+    font-size: 3rem;
+    z-index: 99;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+
+}
+
+
+
+
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.login-wrapper input {
+    border-radius: 10px;
+    border:1px solid darkgreen;
+    padding:0.8em 1em;
+    width: 510px;
+    text-align: center;
+    line-height: 30px;
+    margin:3px;
+    color:green;
+    font-size: 1.4rem; 
+}
+
+
+.login-wrapper-input {
+    color:white;
+    border-radius: 10px;
+    border:1px solid black;
+    background:black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0.8em 7em;
+    cursor: pointer;
+}
+
+.login-wrapper-input:hover {
+    background:ghostwhite;
+    color:green
+}
+
+
+
+
+.login-sign-up {
+    font-size: 1rem;
+    color:black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.login-link-signup {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color:black;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+
+}
+
+
+
+

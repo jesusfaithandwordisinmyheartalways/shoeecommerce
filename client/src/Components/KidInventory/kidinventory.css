@@ -1,0 +1,115 @@
+
+
+
+
+
+
+
+
+.kid-inventory-container {
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    height: 510px;
+    z-index: -99
+   
+}
+
+
+
+.kid-inventory-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+
+
+.kid-inventory-wrapper img {
+    width: fit-content;
+    object-fit: contain;
+}
+
+
+
+.kid-inventory-wrapper-two {
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin:0 auto;
+    max-width: 1000px;
+ 
+}
+
+
+
+
+
+
+
+
+.kid-inventory-container-two {
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+
+}
+
+
+
+.kid-inventory-wrapper-three {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+
+.kid-inventory-wrapper-three span {
+    color:black;
+    font-weight: bold;
+}
+
+
+.kid-inventory-wrapper-three button {
+    padding:0.3em 1em;
+    border:1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background:white;
+    color:black;
+}
+
+
+
+.kid-inventory-wrapper-three img {
+    object-fit: contain;
+    width: 24px;
+  }
+  
+
+
+
+
+
+.kid-inventory-container-three {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.kid-inventory-wrapper-four {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1500px;
+}

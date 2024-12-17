@@ -1,0 +1,128 @@
+
+
+
+
+
+.nav-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+    max-width: 1500px;
+    padding:0.3em
+}
+
+
+
+.nav-logo {
+    text-decoration: none;
+}
+
+.nav-logo h3 {
+    font-size: 1.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav-logo img {
+    object-fit: contain;
+    width:110px
+}
+
+
+
+.nav-menu {
+    display: flex;
+    align-items:center;
+    gap:60px;
+    list-style-type: none;
+
+
+}
+
+
+.nav-menu-link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-menu hr {
+    color:green;
+    font-weight: bold;
+}
+
+
+
+.nav-login-cart-section {
+    display: flex;
+    align-items:center;
+    gap:20px
+}
+
+
+.nav-login-cart-section button {
+    color:white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    background-color: black;
+    border-radius: 10px;
+    padding:0.8em 3em
+}
+
+.nav-login-cart-section button:hover {
+    color:whitesmoke;
+    background-color:rebeccapurple
+}
+
+
+
+.nav-cart-count {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius:20px;
+    font-size: 15px;
+    color:whitesmoke;
+    background:green;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+
+
+
+
+.nav-dropdown {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 620px) and (max-width: 720px) {
+    .nav-menu-visible {
+        display: flex;
+    }
+
+    .nav-dropdown.open {
+        transform: rotate(90deg);
+    }
+}

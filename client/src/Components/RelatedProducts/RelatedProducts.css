@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+.related-products-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.related-products-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 210px;
+}
+
+
+.related-products-wrapper h3 {
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.related-products-wrapper hr {
+    font-size: 1rem;
+    color:green;
+    width: 220px;
+    position: relative;
+    top:20px;
+    left: -230px;
+}
+
+
+
+
+
+.related-products-wrapper-two {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1300px;
+}

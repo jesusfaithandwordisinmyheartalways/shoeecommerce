@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+
+.popular-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    margin:0 auto;
+    max-width: 800px;
+
+}
+
+
+.popular-wrapper h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:peru
+}
+
+
+.hr-tag {
+    display: flex;
+    align-items:center;
+    margin:0 auto;
+    width: 240px;
+    font-size: 0.1em;
+    background:black;
+    margin-top: -30px;
+
+}
+
+
+.shoe-section {
+   width: 100%;
+   display:flex;
+   align-items:center;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+
+
+.women-section {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 10px;
+ }
+
+
+
+ .kid-section {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 10px;
+ }
+ 
+ 

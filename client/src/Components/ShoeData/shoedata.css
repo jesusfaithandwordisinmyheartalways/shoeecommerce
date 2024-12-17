@@ -1,0 +1,80 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.shoe-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1500px;
+    flex-direction: row;
+    height: 335px;
+    
+}
+
+
+.shoe-container img {
+    width: 190px;
+    background:transparent;
+    mix-blend-mode: multiply;
+}
+
+
+
+.shoe-price-text {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    margin:0 auto;
+    position: relative;
+    top:-10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.3rem;
+    
+}
+
+
+
+
+.shoe-price-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap:3px;
+    margin:0 auto;
+}
+
+
+
+.shoe-new-price p {
+    color: #374151;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.shoe-old-price p {
+    color: #8c8c8c;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+
+
+
+.shoe-container img:hover {
+    transform: scale(1.25);
+    transition: 0.9s ease-in-out;
+}
+
+
+
+
+

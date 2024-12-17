@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+.women-inventory-container {
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+.women-inventory-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+
+.women-inventory-wrapper img {
+    width: fit-content;
+    object-fit:contain;
+
+}
+
+
+
+
+
+.women-inventory-container-two {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.women-inventory-wrapper-two {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+
+.women-inventory-wrapper-two span {
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.women-inventory-wrapper-two button {
+    padding:0.3em 1em;
+    border:1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background:white;
+    color:black;
+
+}
+
+
+
+.women-inventory-wrapper-two  img {
+    object-fit: contain;
+    width: 24px;
+  }
+  
+
+
+
+  .women-inventory-container-three {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+
+  .women-inventory-wrapper-three {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 2000px;
+  }

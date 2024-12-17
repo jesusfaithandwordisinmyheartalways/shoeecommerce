@@ -1,0 +1,276 @@
+
+
+
+
+
+
+
+.product-display-container {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+
+
+.product-display-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+    height: 810px;
+    margin-top: -90px;
+}
+
+
+
+.product-display-images {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 1000px;
+    margin:0 auto;
+    position: relative;
+    top:0px;
+    left: 490px;
+}
+
+
+
+.product-display-images img {
+    width: 105px;
+    object-fit: contain;
+}
+
+
+
+.product-display-image-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+    position: relative;
+    top: 0px;
+    left: 510px;
+    background: linear-gradient(45deg, lightgrey 40%, white 50%);
+}
+
+.product-display-image-wrapper img {
+    width: 445px;
+}
+
+
+
+.product-display-name-wrapper {
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1000px;
+    position: relative;
+    top:-110px;
+    left: 520px;
+}
+
+
+.product-display-name-wrapper h3 {
+    width: 510px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+.product-star-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap:10px;
+    position: relative;
+    top:-45px;
+    left: 55px
+}
+
+
+
+.product-price-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top:0px;
+    left: -120px;
+
+}
+
+
+
+
+.product-description-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    top:45px;
+    left: -290px;
+
+}
+
+
+.product-description-wrapper p {
+    width: 310px;
+    font-size: 1rem;
+}
+
+
+
+
+.product-size-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    top:90px;
+    left: -550px;
+
+}
+
+
+.product-size-wrapper h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    width: 110px;
+}
+
+
+
+
+.product-sizes-chart-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1000px;
+    gap:30px;
+    position: relative;
+    top:150px;
+    left: -650px;
+
+}
+
+
+.product-sizes-chart-wrapper > div {
+    background:gray;
+    border-radius: 10px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    width: 60px;
+    text-align: center;
+}
+
+
+
+
+
+.product-add-to-cart-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    top:230px;
+    left: -980px;
+}
+
+
+.product-add-to-cart-wrapper button {
+    background:orange;
+    color:white;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:0.5em 3em;
+}
+
+
+.product-add-to-cart-wrapper button:hover {
+    background:greenyellow
+}
+
+
+
+
+.product-category-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 100px;
+    position: relative;
+    top:300px;
+    left: -1025px;
+}
+
+
+
+.product-category-wrapper span {
+    color:black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.product-category-wrapper p {
+    width: 310px;
+}
+
+
+
+.product-tag-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 100px;
+    position: relative;
+    top:355px;
+    left: -1210px;
+}
+
+
+.product-tag-wrapper span {
+    color:black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.product-tag-wrapper p {
+    width: 310px;
+}

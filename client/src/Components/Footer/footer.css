@@ -1,0 +1,117 @@
+
+
+
+
+
+
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 800px;
+}
+
+
+.footer-wrapper h3 {
+    font-size: 1.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:purple
+}
+
+
+
+.footer-wrapper img {
+    width: 510px;
+    object-fit: contain;
+    animation-name: footerImage;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes footerImage {
+    from {transform: scale(0.99);}
+    to {transform: scale(2.00);}
+}
+
+
+
+
+
+
+.footer-container-two {
+    width: 100%;
+    overflow: hidden;
+    height: 340px;
+    background-color: rgb(53, 70, 120);
+}
+
+
+
+.footer-wrapper-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 800px;
+}
+
+
+.footer-wrapper-two h3 {
+    color:white;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer-wrapper-two p {
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+.footer-container-three {
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+
+
+
+.footer-wrapper-three {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
+
+
+
+.footer-wrapper-three p {
+    color:whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,123 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+.landpage-background {
+    background-image: url('../images/image.webp');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    z-index: -99;
+    animation-name: landPage;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+.background {
+    background-color: black;
+}
+
+
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.wrapper img {
+    object-fit: contain;
+    width: 90px;
+    z-index: 99;
+
+}
+
+
+.wrapper h3 {
+    color:white;
+    font-size: 3rem;
+    z-index: 99;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+
+}
+
+
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+
+.wrapper input {
+    border-radius: 10px;
+    border:1px solid darkgreen;
+    padding:0.8em 1em;
+    width: 510px;
+    text-align: center;
+    line-height: 30px;
+    margin:10px;
+    color:black;
+    font-size: 1.4rem; 
+}
+
+
+.wrapper-input {
+    color:white;
+    border-radius: 10px;
+    border:1px solid whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0.8em 7em;
+    cursor: pointer;
+}
+
+.wrapper-input:hover {
+    background:ghostwhite;
+    color:green
+}
+
+
+
+
+.sign-up {
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.link-signup {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color:white;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+
+}

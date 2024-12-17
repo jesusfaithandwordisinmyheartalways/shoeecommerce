@@ -1,0 +1,45 @@
+
+
+
+
+.checkout-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.checkout-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 410px;
+    text-align: center;
+
+}
+
+
+
+
+.checkout-wrapper input {
+    text-align: center;
+    padding:0.9em 3em;
+    border:1px solid black;
+    margin: 10px 90px
+    
+}
+
+
+
+
+.checkout-wrapper button {
+    padding:1em 3em;
+    color:whitesmoke;
+    background: purple;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

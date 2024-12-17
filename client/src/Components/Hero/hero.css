@@ -1,0 +1,77 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+.hero-container {
+    width: 100%;
+    overflow: hidden;
+    height: 510px;
+    background:linear-gradient(rgb(7, 6, 6) 4%, rgb(56, 149, 242) 50%)
+}
+
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+.hero-wrapper h3 {
+    color:whitesmoke;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+
+.home-section {
+    display: flex;
+    align-items:center;
+    gap:20px;
+}
+
+
+
+
+.home-section p {
+    color:goldenrod;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.home-hero  {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.home-hero img {
+    width: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 510px;
+
+
+}
+
+
+
